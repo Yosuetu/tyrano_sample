@@ -1,11 +1,13 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="究極の1/2"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
 「走るか寝るかするメロス」[l][r]
+
+[bg storage=whiteimage.png time=500]
 
 メロスは激怒した。[l][r]
 
@@ -15,6 +17,9 @@
 
 ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
 メロスは...[l][r]
+[locate x=100 y=400]
+[button graphic="sleep.jpg" target=*tag_sleep width=300 height=100][endlink][r]
+
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
@@ -28,6 +33,8 @@
 
 メロスは死んだように深く眠った。[l][r]
 勇者は、ひどく赤面した。[r]
+
+[bg storage=game_tetsuya_man.png time=500][l]
 
 【 BAD END 】[l][cm]
 
